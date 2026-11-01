@@ -1,0 +1,23 @@
+{
+  "name": "pjfholdings-website",
+  "version": "1.0.0",
+  "description": "PJF Holdings LTD - Smart Irrigation & Solar Pumping Systems (Kenya)",
+  "scripts": {
+    "dev": "python -m http.server 3000 --directory preview",
+    "start": "python -m http.server 3000 --directory preview",
+    "serve": "npx serve preview",
+    "audit": "python scripts/audit_site.py",
+    "deploy": "npx vercel preview"
+  },
+  "keywords": [
+    "irrigation",
+    "solar",
+    "kenya",
+    "shimba-hills",
+    "kwale",
+    "agriculture",
+    "vercel"
+  ],
+  "author": "PJF Holdings LTD",
+  "license": "UNLICENSED"
+}

@@ -1,0 +1,14 @@
+# Development & Temporary files
+*.zip
+__pycache__/
+*.pyc
+preview/
+extracted/
+scripts/
+pjfholdings-site/
+
+# OS / Editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
